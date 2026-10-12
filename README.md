@@ -1,40 +1,77 @@
-# HackatonAppDeUna 🚀 -p1
-Todo el código o la mayor parte del código de la aplicación movil fue desarrollado por Luis Enrique Pérez en colaboración con Juan Pachacama, la conexión con el API de Gemini para Chat fue hecha por Nicolas y la implementación fue por parte de los desarrolladores.
+# HackatonAppDeUna 🚀
 
-El resto del equipo desarrolló el mockup en Figma, vistas y flujo.
+Este proyecto fue desarrollado durante el evento tech Hackathon DEUNA 2025 con un enfoque práctico y demostrativo: integrar agentes de inteligencia artificial para ofrecer a los usuarios una mejor experiencia y un mayor control sobre su gestión financiera personal.
 
-## Instrucciones de instalación 💻
-Se construyó la app para entorno de prueba, se puede descargar la aplicación en el siguiente link:
-[Descargar apk](https://expo.dev/artifacts/eas/uBcfWAtRDJR5zYdFyxufru.apk)
+La aplicación busca convertir la interacción financiera en una experiencia más intuitiva, aprovechando asistentes conversacionales y automatización para ayudar al usuario a:
+- monitorear sus gastos e ingresos;
+- consultar información financiera de manera natural;
+- recibir recomendaciones sobre presupuesto y control económico;
+- mejorar la toma de decisiones con apoyo de IA.
 
-Se puede instalar la aplicación sin necesidad de ingresar ningún dato ni otorgar ningún permiso.
+## Equipo
 
-## Instrucciones de ejecución.❗
-La aplicación se realizó utilizando React Native, que tiene Javascript/Typescript por detrás, por lo que es obligatorio tener la última versión estable de NodeJs y npm-npx.
+- Luis Enrique Pérez — desarrollo principal de la aplicación móvil y lógica del proyecto.
+- Juan Pachacama — colaboración en desarrollo e integración tecnológica.
+- El resto del equipo — diseño de mockup en Figma, vistas, flujo de la experiencia de usuario y apoyo visual.
 
-### Instalación de React Native con Expo y paquetes para el programa 🚩:
+## Propósito del proyecto
+
+Este fue un proyecto de hackathon, por lo que su objetivo principal fue demostrar cómo los agentes de IA pueden integrarse en una app móvil para ofrecer un mejor control financiero y una experiencia más cercana al usuario. La idea no era solo crear una app funcional, sino explorar la combinación entre React Native, asistentes conversacionales y APIs de modelos de lenguaje para resolver una necesidad real de gestión económica.
+
+## Aplicación y demo
+
+Se construyó una versión de prueba de la aplicación y se publicó un APK para evaluación:
+
+[Descargar APK](https://expo.dev/artifacts/eas/uBcfWAtRDJR5zYdFyxufru.apk)
+
+La aplicación fue pensada para probar su uso sin requerir registro, autenticación ni permisos complejos.
+
+## Requisitos para ejecutar el proyecto
+
+La app fue desarrollada con React Native y Expo. Para ejecutarla localmente, es necesario contar con:
+- Node.js actualizado
+- npm / npx
+- Expo CLI
+
+## Instalación de dependencias
+
+Ejecuta lo siguiente en la carpeta del proyecto:
+
 ```bash
-npm install -g expo-cli exp
-```
-Ejecutar dentro de la carpeta de la aplicación
-```bash
+npm install -g expo-cli
 npm install
 ```
-Ejecución de la aplicación:
+
+## Ejecución local
+
 ```bash
 npx expo start
 ```
 
-### Instalación en dispositivo 📱:
-- Usar emulador de Android con Android studio, se presiona la tecla a una vez haya inicializado el proyecto.
+## Instalación en dispositivo
 
-- Usar aplicación en dispositivo fisico "Expo go", escanear el QR y generar la aplicación automáticamente.
+### Emulador Android
+- Abrir Android Studio.
+- Iniciar un emulador Android.
+- En la terminal de Expo, presionar la tecla `a` para abrir la app en el emulador.
 
-## Recomendaciones 🔧.
-No enviar demasiadas consultas al chatbot por el límite de tokens para la API.
+### Dispositivo físico
+- Instalar la app Expo Go en el celular.
+- Escanear el código QR generado por `npx expo start`.
+- La aplicación se cargará automáticamente.
 
-## Tecnologías 🔎.
-- React Native - Javascript.
-- Api de Google Gemini.
-- Expo - Construcción del Apk.
-# HACKATON-DEUNA-
+## Recomendaciones
+
+- No enviar demasiadas consultas al chatbot para evitar saturar el límite de tokens de la API.
+- Este proyecto tiene un enfoque de prototipo y demo, por lo que es importante realizar pruebas y ajustes antes de usarlo en entornos reales o de producción.
+
+## Tecnologías utilizadas
+
+- React Native
+- JavaScript / TypeScript
+- Expo
+- API de Google Gemini
+
+## Consideración final
+
+Este repo representa una propuesta de solución desarrollada en un evento de innovación tecnológica, con la finalidad de mostrar cómo agentes de IA pueden apoyar a las personas en el control de sus finanzas personales de una manera más natural, útil y accesible.
