@@ -1,71 +1,79 @@
 # HackatonAppDeUna 🚀
 
-Este proyecto fue desarrollado durante el evento tech Hackathon DEUNA 2025 con un enfoque práctico y demostrativo: integrar agentes de inteligencia artificial para ofrecer a los usuarios una mejor experiencia y un mayor control sobre su gestión financiera personal.
+Este proyecto fue desarrollado durante el evento tech Hackathon DEUNA 2025 con el objetivo de explorar cómo los agentes de inteligencia artificial pueden mejorar la experiencia del usuario en la gestión de sus finanzas personales.
 
-La aplicación busca convertir la interacción financiera en una experiencia más intuitiva, aprovechando asistentes conversacionales y automatización para ayudar al usuario a:
-- monitorear sus gastos e ingresos;
-- consultar información financiera de manera natural;
-- recibir recomendaciones sobre presupuesto y control económico;
-- mejorar la toma de decisiones con apoyo de IA.
+La aplicación fue creada como una propuesta innovadora para integrar asistentes inteligentes dentro de una app móvil, con el fin de ofrecer un mejor control financiero, facilitar la toma de decisiones y hacer más accesible la información económica para cualquier usuario.
+
+## ¿Qué fue este proyecto?
+
+Fue un proyecto de hackathon, es decir, un prototipo orientado a demostrar una idea tecnológica en un tiempo limitado. La meta principal no era solo construir una app funcional, sino validar la combinación de:
+- React Native para la interfaz móvil
+- agentes IA para interacción conversacional
+- APIs de modelos de lenguaje para análisis y apoyo en consultas financieras
+- experiencia de usuario enfocada en mejores decisiones de presupuesto y control de gastos
+
+## Objetivo principal
+
+Integrar agentes de inteligencia artificial para lograr un mejor control con el usuario sobre su control financiero. En otras palabras, la app busca brindar apoyo para:
+- consultar saldo y movimientos
+- seguir gastos e ingresos
+- hacer seguimiento de presupuestos
+- responder dudas sobre finanzas en lenguaje natural
+- ofrecer recomendaciones más útiles y personalizadas
 
 ## Equipo
 
 - Luis Enrique Pérez — desarrollo principal de la aplicación móvil y lógica del proyecto.
-- Juan Pachacama — colaboración en desarrollo e integración tecnológica.
-- El resto del equipo — diseño de mockup en Figma, vistas, flujo de la experiencia de usuario y apoyo visual.
+- Juan Pachacama — colaboración en el desarrollo e integración tecnológica.
+- El resto del equipo — diseño del mockup en Figma, definición de vistas y flujo de la experiencia del usuario.
 
-## Propósito del proyecto
+## Demo y APK
 
-Este fue un proyecto de hackathon, por lo que su objetivo principal fue demostrar cómo los agentes de IA pueden integrarse en una app móvil para ofrecer un mejor control financiero y una experiencia más cercana al usuario. La idea no era solo crear una app funcional, sino explorar la combinación entre React Native, asistentes conversacionales y APIs de modelos de lenguaje para resolver una necesidad real de gestión económica.
+Se construyó una versión de prueba de la aplicación para entorno de evaluación. Puedes descargar la APK aquí:
 
-## Aplicación y demo
+[Descargar apk](https://expo.dev/artifacts/eas/uBcfWAtRDJR5zYdFyxufru.apk)
 
-Se construyó una versión de prueba de la aplicación y se publicó un APK para evaluación:
+La aplicación fue pensada para ejecutarse sin necesidad de ingresar datos personales ni otorgar permisos complejos.
 
-[Descargar APK](https://expo.dev/artifacts/eas/uBcfWAtRDJR5zYdFyxufru.apk)
+## Instrucciones de instalación 💻
 
-La aplicación fue pensada para probar su uso sin requerir registro, autenticación ni permisos complejos.
+Se desarrolló la app para entorno de prueba y demostración. Para ejecutarla en tu máquina local, sigue estos pasos:
 
-## Requisitos para ejecutar el proyecto
-
-La app fue desarrollada con React Native y Expo. Para ejecutarla localmente, es necesario contar con:
+### Requisitos
 - Node.js actualizado
 - npm / npx
 - Expo CLI
 
-## Instalación de dependencias
-
-Ejecuta lo siguiente en la carpeta del proyecto:
-
+### Instalación
 ```bash
 npm install -g expo-cli
 npm install
 ```
 
-## Ejecución local
+## Instrucciones de ejecución ❗
 
 ```bash
 npx expo start
 ```
 
-## Instalación en dispositivo
+## Instalación en dispositivo 📱
 
 ### Emulador Android
 - Abrir Android Studio.
-- Iniciar un emulador Android.
-- En la terminal de Expo, presionar la tecla `a` para abrir la app en el emulador.
+- Iniciar un emulador.
+- En la consola de Expo, presionar la tecla `a` para abrir la app en el emulador.
 
 ### Dispositivo físico
-- Instalar la app Expo Go en el celular.
-- Escanear el código QR generado por `npx expo start`.
+- Instalar la aplicación Expo Go en el celular.
+- Escanear el código QR generado con `npx expo start`.
 - La aplicación se cargará automáticamente.
 
-## Recomendaciones
+## Recomendaciones 🔧
 
 - No enviar demasiadas consultas al chatbot para evitar saturar el límite de tokens de la API.
-- Este proyecto tiene un enfoque de prototipo y demo, por lo que es importante realizar pruebas y ajustes antes de usarlo en entornos reales o de producción.
+- Este es un proyecto de prototipo y demostración, por lo que requiere pruebas y ajustes antes de usarlo en producción.
 
-## Tecnologías utilizadas
+## Tecnologías 🔎
 
 - React Native
 - JavaScript / TypeScript
@@ -74,4 +82,6 @@ npx expo start
 
 ## Consideración final
 
-Este repo representa una propuesta de solución desarrollada en un evento de innovación tecnológica, con la finalidad de mostrar cómo agentes de IA pueden apoyar a las personas en el control de sus finanzas personales de una manera más natural, útil y accesible.
+Este proyecto representa una solución desarrollada en un evento tecnológico con un enfoque claro: integrar agentes de IA para lograr un mejor control financiero del usuario, apoyando la toma de decisiones de manera más natural, inteligente y accesible.
+
+# HACKATON-DEUNA-2025
